@@ -1,0 +1,28 @@
+.preferences__list {
+   display: flex;
+   column-gap: var(--card-set-gap);
+}
+
+.preferences__subtitle {
+   margin-bottom: 10px;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   text-transform: uppercase;
+}
+
+.preferences__description {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   color: var(--text-grey-color);
+}
+
+.preferences__icon {
+   max-width: 270;
+   height: 120;
+   padding: 25px 100px;
+   margin-bottom: 30px;
+   background-color: var(--special-white-color);
+   border-radius: 4px;
+}
