@@ -639,6 +639,7 @@ footer {
 .preferences__list {
   display: flex;
   column-gap: var(--card-set-gap);
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .preferences__subtitle {
@@ -673,6 +674,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   column-gap: var(--card-set-gap);
+  flex-basis: 13.3333333333px;
 }
 
 .about__item {
@@ -702,6 +704,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   column-gap: var(--card-set-gap);
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .team__member-image {
@@ -796,6 +799,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: var(--card-set-gap);
+  flex-basis: calc((100% - 90px) / 3);
 }
 
 .portfolio-list__product-thumb {

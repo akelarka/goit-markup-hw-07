@@ -2,6 +2,7 @@
    display: flex;
    flex-wrap: wrap;
    gap: var(--card-set-gap);
+   flex-basis: calc((100% - 90px) / 3);
 }
 
 .portfolio-list__product-thumb {

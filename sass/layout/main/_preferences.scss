@@ -1,6 +1,7 @@
 .preferences__list {
    display: flex;
    column-gap: var(--card-set-gap);
+   flex-basis: calc((100% - 90px) / 4);
 }
 
 .preferences__subtitle {
